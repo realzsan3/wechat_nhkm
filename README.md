@@ -6,7 +6,7 @@
 
 - 扫一扫，快来体验吧
 
-  ![tg-image](F:\git_tmp\wechat\tg-image.jpg)
+  ![nhkm](https://github.com/yong-s/wechat_nhkm/blob/master/tg-image.jpg)
 
 
 ## V1.0.1
