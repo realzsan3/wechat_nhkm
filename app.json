@@ -1,13 +1,11 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/index/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Face Value",
-    "navigationBarTextStyle":"black",
-    "navigationStyle": "custom"
-  }
+  "window": {
+    "navigationStyle": "custom",
+    "pageOrientation": "auto",
+    "resizable": true
+  },
+  "sitemapLocation": "sitemap.json"
 }

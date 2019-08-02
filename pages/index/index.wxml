@@ -2,10 +2,12 @@
 
 <view class="info" wx:if="{{result}}">
   <view class="item">
-    <text>性别：</text><text>{{result.gender > 50 ? '♂' : '♀'}}</text>
+    <text>性别：</text>
+    <text>{{result.gender > 50 ? '♂' : '♀'}}</text>
   </view>
   <view class="item">
-    <text>年龄：</text><text>{{result.age}}岁</text>
+    <text>年龄：</text>
+    <text>{{result.age}}岁</text>
   </view>
   <view class="item">
     <text>表情：</text>
@@ -21,14 +23,16 @@
     <text wx:else>一笑倾城</text>
   </view>
   <view class="item">
-    <text>颜值：</text><text>{{result.beauty}}（0-100）</text>
+    <text>颜值：</text>
+    <text>{{result.beauty}}（0-100）</text>
   </view>
   <view wx:if="{{result.glass}}">你好丫四眼仔~</view>
 </view>
 
 <view class="controls">
-  <button class="btn-start" hover-class="btn-start-hover" bindtap="handleCamera" bindlongpress="handleChoose">
+  <button class="btn-start" hover-class="btn-start-hover" bindtap="handleChoose" bindlongpress="handleCamera">
     <view class="icon"></view>
-    <text class="text">Show</text>
+    <text class="text">点我测</text>
   </button>
 </view>
+<view class='yiyan'>{{yiyan}}</view>
