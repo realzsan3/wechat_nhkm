@@ -3,9 +3,9 @@
     "pages/index/index"
   ],
   "window": {
-    "navigationStyle": "custom",
     "pageOrientation": "auto",
-    "resizable": true
+    "resizable": true,
+    "navigationStyle":"custom"
   },
   "sitemapLocation": "sitemap.json"
 }

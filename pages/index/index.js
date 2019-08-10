@@ -3,7 +3,7 @@
     * 页面的初始数据
     */
    data: {
-     image: 'https://i.loli.net/2019/07/06/5d20528fd2bba31591.jpg',
+     image: 'https://s2.ax1x.com/2019/08/10/eOufDs.jpg',
      yiyan: {}
    },
 
@@ -92,7 +92,7 @@
     * 生命周期函数--监听页面加载
     */
    onLoad: function(options) {
-     this.getYiyan();
+     this.getYiyan()
    },
 
    /**
