@@ -8,6 +8,10 @@
 
   ![nhkm](https://github.com/yong-s/wechat_nhkm/blob/master/tg-image.jpg)
 
+## V1.0.1
+
+- UI更换
+- bgimg更换图床链接
 
 ## V1.0.1
 
